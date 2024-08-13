@@ -1,0 +1,40 @@
+body {
+  margin-top: 100%;
+}
+
+.container {
+  border: 2px solid black;
+  height: 350px;
+  margin-top: 10%;
+  display: flow-root;
+  flex-wrap: wrap;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid gray;
+  list-style: none;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+i {
+  color: red;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
